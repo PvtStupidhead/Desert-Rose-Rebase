@@ -14,6 +14,7 @@
 	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
 	icon_grow = "potato-grow"
 	icon_dead = "potato-dead"
+	reagents_add = list(/datum/reagent/medicine/antitoxin = 0.2, /datum/reagent/medicine/salglu, 0.05)
 
 /obj/item/reagent_containers/food/snacks/grown/xander
 	seed = /obj/item/seeds/xander

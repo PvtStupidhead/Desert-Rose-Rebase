@@ -1,6 +1,6 @@
 /obj/item/seeds/yucca
 	name = "pack of banana yucca seeds"
-	desc = "These seeds grow into an agave plant."
+	desc = "These seeds grow into an yucca plant."
 	icon = 'icons/obj/hydroponics/seeds.dmi'
 	icon_state = "seed-yucca"
 	species = "banna yucca"
@@ -23,7 +23,7 @@
 /obj/item/reagent_containers/food/snacks/grown/yucca
 	seed = /obj/item/seeds/yucca
 	name = "banana yucca fruit"
-	desc = "The fleshy banana banana like fruit, rougly 8 cm long and 6 cm across. It smells tastes similar to a sweet potato."
+	desc = "The fleshy banana banana like fruit, rougly 8 cm long and 6 cm across. It tastes similar to a sweet potato."
 	icon_state = "Bannana Yucca"
 	icon = 'icons/obj/hydroponics/harvest.dmi'
 	bitesize = 3

@@ -42,7 +42,7 @@
 	name = "Tea Astra tips"
 	icon_state = "tea_astra_leaves"
 	filling_color = "#4582B4"
-	grind_results = list(/datum/reagent/toxin/teapowder = 0, /datum/reagent/medicine/salglu_solution = 0)
+	grind_results = list(/datum/reagent/toxin/teapowder = 0, /datum/reagent/medicine/salglu_solution = 0.1)
 
 // Catnip
 /obj/item/seeds/tea/catnip
