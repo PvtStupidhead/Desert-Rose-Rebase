@@ -168,8 +168,7 @@
 	endurance = 10
 	yield = 3
 	growthstages = 4
-	production = 2
-	maturation = 2
+	production = 1
 	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
 	icon_grow = "potato-grow"
 	icon_dead = "potato-dead"
@@ -301,7 +300,7 @@
 	plantname = "prickly pear"
 	genes = list(/datum/plant_gene/trait/repeated_harvest)
 	product = /obj/item/reagent_containers/food/snacks/grown/pricklypear
-	reagents_add = list( /datum/reagent/consumable/nutriment/vitamin = 0.02,  /datum/reagent/consumable/nutriment/vitamin = 0.2, /datum/reagent/water = 0.04)
+	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.02, /datum/reagent/water = 0.04)
 	lifespan = 60
 	endurance = 20
 	yield = 2
@@ -403,7 +402,7 @@
 
 /obj/item/seeds/yucca
 	name = "pack of banana yucca seeds"
-	desc = "These seeds grow into an agave plant."
+	desc = "These seeds grow into an yucca plant."
 	icon = 'icons/obj/hydroponics/seeds.dmi'
 	icon_state = "seed-yucca"
 	species = "banna yucca"
@@ -414,7 +413,7 @@
 	yield = 5
 	growthstages = 4
 	production = 2
-	maturation = 1
+	// maturation = 1 <---- Secret Hitler?
 	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
 	icon_grow = "yucca-grow"
 	icon_dead = "yucca-dead"
@@ -426,7 +425,7 @@
 /obj/item/reagent_containers/food/snacks/grown/yucca
 	seed = /obj/item/seeds/yucca
 	name = "banana yucca fruit"
-	desc = "The fleshy banana banana like fruit, rougly 8 cm long and 6 cm across. It smells tastes similar to a sweet potato."
+	desc = "A fleshy banana like fruit, rougly 8 cm long and 6 cm across. It tastes similar to a sweet potato."
 	icon_state = "Bannana Yucca"
 	icon = 'icons/obj/hydroponics/harvest.dmi'
 	bitesize = 3
