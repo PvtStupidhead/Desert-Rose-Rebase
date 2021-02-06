@@ -303,7 +303,7 @@
 	plantname = "prickly pear"
 	genes = list(/datum/plant_gene/trait/repeated_harvest)
 	product = /obj/item/reagent_containers/food/snacks/grown/pricklypear
-	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.02, /datum/reagent/water = 0.04)
+	reagents_add = list(/datum/reagent/consumable/nutriment/vitamin = 0.2, /datum/reagent/water = 0.04)
 	lifespan = 60
 	endurance = 20
 	yield = 2
