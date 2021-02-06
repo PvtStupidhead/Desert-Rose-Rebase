@@ -41,7 +41,7 @@
 	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
 	icon_grow = "gourd-grow"
 	icon_dead = "gourd-dead"
-	icon_harvest = "tato-harvest"
+	icon_harvest = "gourd-harvest"
 	reagents_add = list(/datum/reagent/water = 0.2, /datum/reagent/consumable/nutriment/vitamin = 0.04, /datum/reagent/consumable/nutriment = 0.2)
 	lifespan = 50
 	endurance = 40
@@ -138,7 +138,9 @@
 	production = 4
 	maturation = 4
 	growing_icon = 'icons/obj/hydroponics/growing_flowers.dmi'
-	//mutatelist = list(/obj/item/seeds/geraniumseed, /obj/item/seeds/lilyseed)
+	icon_grow = "broc-grow"
+	icon_dead = "broc-dead"
+	icon_harvest = "broc-harvest"
 
 /obj/item/reagent_containers/food/snacks/grown/broc
 	seed = /obj/item/seeds/poppy/broc
@@ -170,8 +172,9 @@
 	growthstages = 4
 	production = 1
 	growing_icon = 'icons/obj/hydroponics/growing_vegetables.dmi'
-	icon_grow = "potato-grow"
-	icon_dead = "potato-dead"
+	icon_grow = "xander-grow"
+	icon_dead = "xander-dead"
+	icon_harvest = "xander-harvest"
 
 /obj/item/reagent_containers/food/snacks/grown/xander
 	seed = /obj/item/seeds/xander
@@ -223,7 +226,7 @@
 
 /obj/item/seeds/mesquite
 	name = "pack of honey mesquite seeds"
-	desc = "This mycelium grows into tower-cap mushrooms."
+	desc = "This seed grows into a honey mesquite tree."
 	icon_state = "mycelium-tower"
 	species = "honey mesquite"
 	plantname = "honey mesquite"
